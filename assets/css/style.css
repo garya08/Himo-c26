@@ -376,7 +376,8 @@ body {
 	transition: all .2s linear;
 }
 .description-intro__btn:hover,
-.description-intro__btn:active {
+.description-intro__btn:active,
+.description-intro__btn:focus {
 	background: var(--my-coral);
 }
 
