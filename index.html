@@ -3,10 +3,281 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+
+<!-- icon -->
+    <link type="image/x-icon" href="assets/images/favicon/favicon.ico" rel="shortcut icon">
+    <link type="Image/x-icon" href="assets/images/favicon/favicon.ico" rel="icon">
+
+<!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..700&display=swap&subset=cyrillic-ext" rel="stylesheet">
+
+    <title>Himo C26</title>
+
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
+    <div class="wrapper">
+        
+        <!-- header -->
+        <header class="header fixed" id="header">
+            <div class="header__container _container">
+                <div class="header__body">
+                    <a href="#" class="header__logo" data-scroll="#page">
+                        <img src="assets/images/logo.png" alt="">
+                    </a>
+                    <nav class="header__nav nav" id="nav">
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#" class="nav__link" data-scroll="#info">Описание</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link" data-scroll="#features">Характеристики</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#" class="nav__link" data-scroll="#price">Стоимость</a>
+                            </li>
+                        </ul>
+                    </nav>  <!-- /.header__nav -->
+
+                    <button class="nav-toggle" id="nav_toggle" type="button">
+                        <span class="nav-toggle__item">Menu</span>
+                    </button>
+
+                </div>  <!-- /.header__body -->
+            </div>  <!-- /._container -->
+        </header>   <!-- /.header -->
+
+
+
+        <!-- main -->
+        <main class="page" id="page">
+
+            <section class="page__intro intro" id="intro">
+                <div class="intro__container _container">
+                    <div class="intro__body">
+                        <div class="intro__inner">
+                            <div class="intro__description description-intro">
+                                <h1 class="description-intro__title">Xiaomi Himo C26</h1>
+                                <h3 class="description-intro__subtitle">Электрический велосипед</h3>
+                                <div class="description-intro__texts">
+                                    <p class="description-intro__text">Полная свобода передвижения и надежный транспорт для путешествий на любые расстояния</p>
+                                    <p class="description-intro__text">HIMO C26 – это новый электровелосипед от Xiaomi, который создан как для езды по городу, так и бездорожью. Он имеет мощный двигатель и емкий аккумулятор, благодаря которым способен проезжать на одном заряде до 100 км, что определенно выше, чем у большинства конкурентов. А большие колеса с пневматическими шинами, дисковые тормоза, 7-скоростная трансмиссия и эргономичное сидение делают каждую поездку гораздо приятнее.</p>
+                                </div>
+                            </div> <!-- /.description-intro -->
+                            <a href="#" class="description-intro__btn" data-scroll="#price">ЗАКАЗАТЬ</a>
+                        </div>
+
+                        <div class="intro__content content-intro">
+                            <div class="content-intro__slider intro-slider">
+                                <img class="intro-slider__item" src="assets/images/intro/bike-1.jpg" alt="bike-1">
+                                <img class="intro-slider__item" src="assets/images/intro/bike-2.jpg" alt="bike-2">
+                                <img class="intro-slider__item" src="assets/images/intro/bike-3.jpg" alt="bike-3">
+                                <img class="intro-slider__item" src="assets/images/intro/bike-4.jpg" alt="bike-4">
+                            </div>
+                            <div class="content-intro__items">
+                                <div class="content-intro__item">
+                                    <div class="content-intro__title">до 100 км</div>
+                                    <div class="content-intro__text">Запас хода</div>
+                                </div>
+                                <div class="content-intro__item">
+                                    <div class="content-intro__title">25 км/ч</div>
+                                    <div class="content-intro__text">Макс корость</div>
+                                </div>
+                                <div class="content-intro__item">
+                                    <div class="content-intro__title">3 режима езды</div>
+                                    <div class="content-intro__text">механический, гибридный, электрический</div>
+                                </div>
+                                <div class="content-intro__item">
+                                    <div class="content-intro__title">25 кг</div>
+                                    <div class="content-intro__text">вес</div>
+                                </div>
+                            </div>  <!-- /.content-intro__items -->
+                        </div>  <!-- /.intro__content -->
+                    </div>  <!-- /.intro__body -->
+                </div>  <!-- /._container -->
+            </section>  <!-- /.page__intro -->
+
+
+            <section class="page__info info" id="info">
+                <div class="info__container _container">
+                    <div class="info__body">
+                        <div class="info__photo">
+                            <img src="assets/images/info.jpg" alt="info">
+                        </div>
+                        <div class="info__items">
+                            <div class="info__item item-info">
+                                <div class="item-info__title">Комфорт и безопасность от HIMO</div>
+                                <div class="item-info__text">Электровелосипед HIMO C26 позволит вам быстро и с комфортом добраться до места работы или учебы и не привязываться к городскому транспорту. Велосипед обладает прочной конструкцией и внушительным запасом хода, чтобы стать надежным транспортным средством в современных городских условиях. Легкая и прочная рама, 26-дюймовые колеса и 7-ступенчатая система трансмиссии позволяют уверенно передвигаться не только по асфальтированному дорожному полотну, но и по сложной загородной трассе.</div>
+                            </div>
+                            <div class="info__item item-info">
+                                <div class="item-info__title">Прочная и легкая рама</div>
+                                <div class="item-info__text">Рама HIMO C26 изготовлена из прочного и легкого алюминиевого сплава и отличается высокой надежностью, устойчивостью в аварийных ситуациях, превосходной управляемостью и комфортным передвижением по любой дороге.</div>
+                            </div>
+                            <div class="info__item item-info">
+                                <div class="item-info__title">Комбинация режимов для увеличения запаса хода</div>
+                                <div class="item-info__text">Электровелосипед HIMO C26 обладает увеличенным запасом хода. Его аккумулятор емкостью 10000 мАч с интеллектуальной системой оптимизации энергопотребления позволяет проехать до 60 км на одном заряде в режиме электропривода. При использовании на некоторых участках пути физической силы дальность хода увеличивается до 100 км. Максимальная скорость передвижения HIMO C26 составляет 25 км/ч.</div>
+                            </div>
+                            <div class="info__item item-info">
+                                <div class="item-info__title">Надежная трансмиссия</div>
+                                <div class="item-info__text">7-ступенчатая система трансмиссии обеспечивает плавное и точное переключение передач, удобное управление скоростью и надежность в работе. Переключая передачи, вы сможете с минимальными усилиями заехать на горку и безопасно скатиться вниз.</div>
+                            </div>
+                            <div class="info__item item-info">
+                                <div class="item-info__title">Вся информация на ЖК-дисплее</div>
+                                <div class="item-info__text">Вся информация на ЖК-дисплее<br>Большой информативный дисплей, вынесенный на рулевую стойку, отображает всю важную информацию о работе HIMO C26 в реальном времени. Вы сможете узнать актуальную скорость передвижения, уровень заряда или пройденный путь. Дисплей защищен от воздействия внешних факторов по стандарту IPX7 и не боится дождя и пыли.</div>
+                            </div>
+                            <div class="info__item item-info">
+                                <div class="item-info__title">Удобное седло</div>
+                                <div class="item-info__text">Электровелосипед HIMO C26 укомплектован велосипедным седлом от известного бренда Selle Royal. Трехмерная гелевая структура седла обеспечивает оптимальную упругость и высокий комфорт во время езды.</div>
+                            </div>
+                            
+                        </div>  <!-- /.info__items -->
+                    </div>  <!-- /.info__body -->
+                </div>  <!-- /._container -->
+            </section>  <!-- /.page__info -->  
+
+
+            <section class="page__features features" id="features">
+                <div class="features__container _container">
+                    <div class="features__body">
+                        <h4 class="features__title">Характеристики</h4>
+                        <div class="features__inner">
+                            <table class="features__table table-features">
+                                <tr class="table-features__head"><th colspan="2">Общие</th></tr>
+                                <tr class="table-features__row"><td>Производитель</td><td>Xiaomi</td></tr>
+                                <tr class="table-features__row"><td>Вид</td><td>взрослый, дорожный, городской, электровелосипед, алюминиевая рама</td></tr>
+                                <tr class="table-features__row"><td>Колеса</td><td>26, двойной алюминиевый обод</td></tr>
+                                <tr class="table-features__row"><td>Электропривод</td><td>мотор 250W, разгон до 25 км/ч</td></tr>
+
+                                <tr class="table-features__head"><th colspan="2">амортизация</th></tr>
+                                <tr class="table-features__row"><td>Тип амортизации</td><td>амортизирующая вилка (Hard tail)</td></tr>
+                                <tr class="table-features__row"><td>Вилка</td><td>пружинно-эластомерная</td></tr>
+                                
+                                <tr class="table-features__head"><th colspan="2">управление</th></tr>
+                                <tr class="table-features__row"><td>Руль</td><td>изогнутый, регулируемый подъем</td></tr>
+                                <tr class="table-features__row"><td>Манетки</td><td>триггерные однорычажные, Shimano</td></tr>
+
+                                <tr class="table-features__head"><th colspan="2">характеристика трансмиссии</th></tr>
+                                <tr class="table-features__row"><td>Количество скоростей</td><td>7</td></tr>
+                                <tr class="table-features__row"><td>Педали</td><td>классические</td></tr>
+                                <tr class="table-features__row"><td>Передний переключатель</td><td>1 звезда</td></tr>
+                                <tr class="table-features__row"><td>Задний переключатель</td><td>Shimano Tourney (прогулочный)</td></tr>
+                                <tr class="table-features__row"><td>Кассета</td><td>7 звезд</td></tr>
+
+                                <tr class="table-features__head"><th colspan="2">тормоза</th></tr>
+                                <tr class="table-features__row"><td>Передний</td><td>дисковый механический</td></tr>
+                                <tr class="table-features__row"><td>Задний</td><td>дисковый механический</td></tr>
+                                <tr class="table-features__row"><td>Готовность к установке дисковых</td><td>рама, вилка, втулка</td></tr>
+
+                                <tr class="table-features__head"><th colspan="2">прочее</th></tr>
+                                <tr class="table-features__row"><td>Оснащение</td><td>электрооборудование, звонок</td></tr>
+                                <tr class="table-features__row"><td>Вес</td><td>25 кг</td></tr>
+
+                            </table>   <!-- /.table--features -->
+
+                            <div class="features__photo">
+                                <img src="assets/images/features.png" alt="характеристики">
+                            </div>
+                        </div>
+                    </div>  <!-- /.features__body -->
+                </div>  <!-- /._container -->
+            </section>  <!-- /.page__features -->
+
+
+            <div class="page__notice notice">
+                <div class="notice__container _container">
+                    <div class="notice__slider slider-notice">
+                        <img class="slider-notice__item" src="assets/images/notice/1.jpg" alt="1">
+                        <img class="slider-notice__item" src="assets/images/notice/2.jpg" alt="2">
+                        <img class="slider-notice__item" src="assets/images/notice/3.jpg" alt="3">
+                    </div>  <!-- /.slider-notice -->
+                </div>  <!-- /._container -->
+            </div>  <!-- /.page__notice -->
+
+
+            <section class="page__price price" id="price">
+                <div class="price__container _container">
+                    <div class="price__body">
+                        <form class="price__form form">
+                            <h4 class="form__title">Заказать</h4>
+                            <p class="form__text">Если Вы хотите заказать велосипед, оставьте свой контакт и наш менеджер перезвонит вам в ближайшее время</p>
+                            <input type="text" class="form__input-name" placeholder="Имя">
+                            <input type="tel" class="form__input-phone" placeholder="Телефон">
+                            <p class="form__label">выберите желаемый цвет</p>
+                            <div class="form__labels-box box-labels">
+                                <label class="box-label">
+                                    <input type="radio" class="box-label__radio" name="radio">
+                                    <div class="box-label__bike">
+                                        <img src="assets/images/price/grey.jpg" alt="Grey">
+                                        <p class="box-labels__text"><span>33999 руб.</span></p>
+                                    </div>
+                                    <div class="box-radio__style box-radio__style--grey"></div>
+                                </label>
+                                <label class="box-label">
+                                    <input type="radio" class="box-label__radio" name="radio" checked>
+                                    <div class="box-label__bike">
+                                        <img src="assets/images/price/white.jpg" alt="White">
+                                        <p class="box-labels__text"><span>31999 руб.</span></p>
+                                    </div>
+                                    <div class="box-radio__style box-radio__style--white"></div>
+                                </label>
+                                <label class="box-label">
+                                    <input type="radio" class="box-label__radio" name="radio">
+                                    <div class="box-label__bike">
+                                        <img src="assets/images/price/red.jpg" alt="Red">
+                                        <p class="box-labels__text"><span>35999 руб.</span></p>
+                                    </div>
+                                    <div class="box-radio__style box-radio__style--red"></div>
+                                </label>
+                            </div>  <!-- /.box-labels -->
+                            <a class="description-intro__btn" type="submit">Заказать</a>
+                        </form> <!-- /.price__form -->
+                    </div>  <!-- /.page__body -->
+                </div>  <!-- /._container -->
+            </section>  <!-- /.page__price -->
+
+
+            
+        </main> <!-- /.page -->
+
+
+
+        <!-- footer -->
+        <footer class="footer" id="footer">
+            <div class="footer__container _container">
+                <div class="footer__body">
+                    <a href="#" class="footer__link">Политика конфиденциальности</a>
+                    <div class="footer__social">
+                        <a href="" class="footer__social-link">
+                            <img src="assets/images/icons/social/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="" class="footer__social-link">
+                            <img src="assets/images/icons/social/facebook.svg" alt="facebook">
+                        </a>
+                    </div>  <!-- /.footer__social -->
+                    <div class="footer__contacts">
+                        <a class="footer__contacts-link footer--link-contacts" href="tel:+380506777777">
+                            <img class="footer--link-contacts__ico" src="assets/images/icons/phone.svg" alt="tel">
+                            <span>+38 050 677 77 77</span>
+                        </a>
+                        <a class="footer__contacts-link footer--link-contacts" href="mailto:elektrobikeukr@gmail.com">
+                            <img class="footer--link-contacts__ico" src="assets/images/icons/mail.svg" alt="mail">
+                            <span>elektrobikeukr@gmail.com</span>
+                        </a>
+                    </div>  <!-- /.footer__contacts -->
+                </div>  <!-- /.footer__body -->
+            </div>  <!-- /._container -->
+        </footer>   <!-- /.footer -->
+
+
+    </div>  <!-- /.wrapper -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
